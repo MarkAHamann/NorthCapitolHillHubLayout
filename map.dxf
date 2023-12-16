@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-0
+45
  20
-0
+106.2777777777778
  30
 0
   9
 $EXTMAX
  10
-340.8440000000001
+190.8311111111111
  20
-536.928
+316
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+RoleResources
   9
 $CELTYPE
   6
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-257.0947969512416
+114.3335054289397
  22
-259.3394123712322
+176.5929048720512
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-543.1969316377474
+150.4363061812816
  41
 1.366179275270184
  42
@@ -2351,7 +2351,7 @@ AcDbLayerTableRecord
   2
 MapSatLight
  70
-    4
+    5
  62
     7
   6
@@ -2395,7 +2395,7 @@ AcDbLayerTableRecord
   2
 RoleEducation
  70
-    0
+    4
  62
    54
 420
@@ -2419,7 +2419,7 @@ AcDbLayerTableRecord
   2
 RoleHubManager
  70
-    0
+    4
  62
     7
   6
@@ -2441,7 +2441,7 @@ AcDbLayerTableRecord
   2
 RoleInfo
  70
-    0
+    4
  62
     1
   6
@@ -2463,7 +2463,7 @@ AcDbLayerTableRecord
   2
 RoleLiaison
  70
-    0
+    4
  62
     7
 420
@@ -2487,7 +2487,7 @@ AcDbLayerTableRecord
   2
 RoleMessageTaker
  70
-    0
+    4
  62
     3
   6
@@ -2509,7 +2509,7 @@ AcDbLayerTableRecord
   2
 RoleRadio
  70
-    0
+    4
  62
   255
 420
@@ -2533,7 +2533,7 @@ AcDbLayerTableRecord
   2
 RoleResources
  70
-    0
+    4
  62
    96
 420
@@ -2557,7 +2557,7 @@ AcDbLayerTableRecord
   2
 RoleVolunteers
  70
-    0
+    4
  62
     5
   6
@@ -2579,7 +2579,7 @@ AcDbLayerTableRecord
   2
 StationChange
  70
-    0
+    4
  62
   200
 420
@@ -2603,11 +2603,13 @@ AcDbLayerTableRecord
   2
 StationLoo
  70
-    0
+    5
  62
     4
   6
 CONTINUOUS
+290
+0
 370
     0
 390
@@ -2625,7 +2627,7 @@ AcDbLayerTableRecord
   2
 StationPersonalPosting
  70
-    0
+    4
  62
    40
 420
@@ -3159,7 +3161,7 @@ Tent_10x10
   1
 
   0
-LWPOLYLINE
+LINE
   5
 6B
 100
@@ -3167,37 +3169,23 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
   256
 370
    50
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
+AcDbLine
  10
 0
  20
 0
- 10
-10
- 20
+ 11
 0
- 10
-10
- 20
-10
- 10
-0
- 20
+ 21
 10
   0
-LWPOLYLINE
+LINE
   5
 6C
 100
@@ -3205,37 +3193,23 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
   256
 370
    50
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
+AcDbLine
+ 10
 0
- 10
-1
  20
-1
- 10
-9
- 20
-1
- 10
-9
- 20
-9
- 10
-1
- 20
-9
+10
+ 11
+10
+ 21
+10
   0
-LWPOLYLINE
+LINE
   5
 6D
 100
@@ -3243,37 +3217,23 @@ AcDbEntity
   8
 0
   6
-ByLayer
+CONTINUOUS
  62
   256
 370
    50
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
+AcDbLine
+ 10
+10
+ 20
+10
+ 11
+10
+ 21
 0
- 10
-2
- 20
-2
- 10
-8
- 20
-2
- 10
-8
- 20
-8
- 10
-2
- 20
-8
   0
-LWPOLYLINE
+LINE
   5
 6E
 100
@@ -3281,35 +3241,93 @@ AcDbEntity
   8
 0
   6
-ByLayer
+DOTTINY
  62
   256
 370
-   50
+   25
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
+AcDbLine
+ 10
+10
+ 20
 0
+ 11
+0
+ 21
+0
+  0
+LINE
+  5
+6F
+100
+AcDbEntity
+  8
+0
+  6
+DOTTINY
+ 62
+  256
+370
+   25
+100
+AcDbLine
  10
-3
+0
  20
-3
+10
+ 11
+10
+ 21
+0
+  0
+LINE
+  5
+70
+100
+AcDbEntity
+  8
+0
+  6
+DOTTINY
+ 62
+  256
+370
+   25
+100
+AcDbLine
  10
-7
+10
  20
-3
+0
+ 11
+10
+ 21
+10
+  0
+LINE
+  5
+71
+100
+AcDbEntity
+  8
+0
+  6
+DOTTINY
+ 62
+  256
+370
+   25
+100
+AcDbLine
  10
-7
+10
  20
-7
- 10
-3
- 20
-7
+10
+ 11
+0
+ 21
+0
   0
 ENDBLK
   5
@@ -3349,7 +3367,7 @@ Tent_10x20
   0
 LWPOLYLINE
   5
-6F
+72
 100
 AcDbEntity
   8
@@ -3387,7 +3405,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-70
+73
 100
 AcDbEntity
   8
@@ -3425,7 +3443,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-71
+74
 100
 AcDbEntity
   8
@@ -3499,7 +3517,7 @@ FoldedTarp_10x5
   0
 LWPOLYLINE
   5
-72
+75
 100
 AcDbEntity
   8
@@ -3537,7 +3555,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-73
+76
 100
 AcDbEntity
   8
@@ -3611,7 +3629,7 @@ Station_5x5
   0
 CIRCLE
   5
-74
+77
 100
 AcDbEntity
   8
@@ -3651,7 +3669,7 @@ ENTITIES
   0
 HATCH
   5
-75
+78
 100
 AcDbEntity
   8
@@ -3927,63 +3945,11 @@ box
   0
 IMAGE
   5
-78
-100
-AcDbEntity
-  8
-MapStreet
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbRasterImage
- 10
-0
- 20
-0
- 30
-0
- 11
-0.1645
- 21
-0
- 31
-0
- 12
-1.007238726018905e-17
- 22
-0.1645
- 32
-0
- 13
-2072
- 23
-3264
-340
-76
- 70
-    1
-280
-    0
-281
-   50
-282
-   50
-283
-    0
-360
-77
-  0
-IMAGE
-  5
 7B
 100
 AcDbEntity
   8
-MapSatDark
+MapStreet
   6
 ByLayer
  62
@@ -4035,7 +4001,7 @@ IMAGE
 100
 AcDbEntity
   8
-MapSatLight
+MapSatDark
   6
 ByLayer
  62
@@ -4081,9 +4047,61 @@ AcDbRasterImage
 360
 7D
   0
+IMAGE
+  5
+81
+100
+AcDbEntity
+  8
+MapSatLight
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbRasterImage
+ 10
+0
+ 20
+0
+ 30
+0
+ 11
+0.1645
+ 21
+0
+ 31
+0
+ 12
+1.007238726018905e-17
+ 22
+0.1645
+ 32
+0
+ 13
+2072
+ 23
+3264
+340
+7F
+ 70
+    1
+280
+    0
+281
+   50
+282
+   50
+283
+    0
+360
+80
+  0
 INSERT
   5
-7F
+82
 100
 AcDbEntity
   8
@@ -4123,7 +4141,7 @@ Tent_10x10
   0
 MTEXT
   5
-80
+83
 100
 AcDbEntity
   8
@@ -4169,7 +4187,7 @@ iso3098
   0
 INSERT
   5
-81
+84
 100
 AcDbEntity
   8
@@ -4209,7 +4227,7 @@ Station_5x5
   0
 LINE
   5
-82
+85
 100
 AcDbEntity
   8
@@ -4233,7 +4251,7 @@ AcDbLine
   0
 LINE
   5
-83
+86
 100
 AcDbEntity
   8
@@ -4257,7 +4275,7 @@ AcDbLine
   0
 LINE
   5
-84
+87
 100
 AcDbEntity
   8
@@ -4281,7 +4299,7 @@ AcDbLine
   0
 LINE
   5
-85
+88
 100
 AcDbEntity
   8
@@ -4305,7 +4323,7 @@ AcDbLine
   0
 LINE
   5
-86
+89
 100
 AcDbEntity
   8
@@ -4324,78 +4342,6 @@ AcDbLine
 219
  11
 100
- 21
-219
-  0
-LINE
-  5
-87
-100
-AcDbEntity
-  8
-InfraBuilding
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-100
- 20
-219
- 11
-100
- 21
-222
-  0
-LINE
-  5
-88
-100
-AcDbEntity
-  8
-InfraBuilding
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-100
- 20
-222
- 11
-86
- 21
-222
-  0
-LINE
-  5
-89
-100
-AcDbEntity
-  8
-InfraBuilding
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-86
- 20
-222
- 11
-86
  21
 219
   0
@@ -4415,6 +4361,78 @@ ByLayer
 100
 AcDbLine
  10
+100
+ 20
+219
+ 11
+100
+ 21
+222
+  0
+LINE
+  5
+8B
+100
+AcDbEntity
+  8
+InfraBuilding
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+100
+ 20
+222
+ 11
+86
+ 21
+222
+  0
+LINE
+  5
+8C
+100
+AcDbEntity
+  8
+InfraBuilding
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+86
+ 20
+222
+ 11
+86
+ 21
+219
+  0
+LINE
+  5
+8D
+100
+AcDbEntity
+  8
+InfraBuilding
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
 86
  20
 219
@@ -4425,7 +4443,7 @@ AcDbLine
   0
 LINE
   5
-8B
+8E
 100
 AcDbEntity
   8
@@ -4449,7 +4467,7 @@ AcDbLine
   0
 LINE
   5
-8C
+8F
 100
 AcDbEntity
   8
@@ -4473,7 +4491,7 @@ AcDbLine
   0
 LINE
   5
-8D
+90
 100
 AcDbEntity
   8
@@ -4497,7 +4515,7 @@ AcDbLine
   0
 LINE
   5
-8E
+91
 100
 AcDbEntity
   8
@@ -4521,7 +4539,7 @@ AcDbLine
   0
 LINE
   5
-8F
+92
 100
 AcDbEntity
   8
@@ -4545,7 +4563,7 @@ AcDbLine
   0
 LINE
   5
-90
+93
 100
 AcDbEntity
   8
@@ -4569,7 +4587,7 @@ AcDbLine
   0
 LINE
   5
-91
+94
 100
 AcDbEntity
   8
@@ -4593,7 +4611,7 @@ AcDbLine
   0
 LINE
   5
-92
+95
 100
 AcDbEntity
   8
@@ -4617,7 +4635,7 @@ AcDbLine
   0
 LINE
   5
-93
+96
 100
 AcDbEntity
   8
@@ -4641,7 +4659,7 @@ AcDbLine
   0
 LINE
   5
-94
+97
 100
 AcDbEntity
   8
@@ -4665,7 +4683,7 @@ AcDbLine
   0
 LINE
   5
-95
+98
 100
 AcDbEntity
   8
@@ -4689,7 +4707,7 @@ AcDbLine
   0
 LINE
   5
-96
+99
 100
 AcDbEntity
   8
@@ -4713,7 +4731,7 @@ AcDbLine
   0
 LINE
   5
-97
+9A
 100
 AcDbEntity
   8
@@ -4737,7 +4755,7 @@ AcDbLine
   0
 HATCH
   5
-98
+9B
 100
 AcDbEntity
   8
@@ -4865,7 +4883,7 @@ SOLID
   0
 LINE
   5
-99
+9C
 100
 AcDbEntity
   8
@@ -4889,7 +4907,7 @@ AcDbLine
   0
 LINE
   5
-9A
+9D
 100
 AcDbEntity
   8
@@ -4913,7 +4931,7 @@ AcDbLine
   0
 LINE
   5
-9B
+9E
 100
 AcDbEntity
   8
@@ -4937,7 +4955,7 @@ AcDbLine
   0
 LINE
   5
-9C
+9F
 100
 AcDbEntity
   8
@@ -4961,7 +4979,7 @@ AcDbLine
   0
 LINE
   5
-9D
+A0
 100
 AcDbEntity
   8
@@ -4985,7 +5003,7 @@ AcDbLine
   0
 LINE
   5
-9E
+A1
 100
 AcDbEntity
   8
@@ -5009,7 +5027,7 @@ AcDbLine
   0
 LINE
   5
-9F
+A2
 100
 AcDbEntity
   8
@@ -5033,7 +5051,7 @@ AcDbLine
   0
 LINE
   5
-A0
+A3
 100
 AcDbEntity
   8
@@ -5057,7 +5075,7 @@ AcDbLine
   0
 INSERT
   5
-A1
+A4
 100
 AcDbEntity
   8
@@ -5097,7 +5115,7 @@ Tent_10x10
   0
 INSERT
   5
-A2
+A5
 100
 AcDbEntity
   8
@@ -5137,7 +5155,7 @@ Tent_10x10
   0
 MTEXT
   5
-A3
+A6
 100
 AcDbEntity
   8
@@ -5181,49 +5199,9 @@ iso3098
  44
 1
   0
-INSERT
-  5
-A4
-100
-AcDbEntity
-  8
-RoleResources
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Tent_10x10
- 10
-149
- 20
-246
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 MTEXT
   5
-A5
+A7
 100
 AcDbEntity
   8
@@ -5267,49 +5245,9 @@ iso3098
  44
 1
   0
-INSERT
-  5
-A6
-100
-AcDbEntity
-  8
-RoleVolunteers
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Tent_10x10
- 10
-127
- 20
-246
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 MTEXT
   5
-A7
+A8
 100
 AcDbEntity
   8
@@ -5355,7 +5293,7 @@ iso3098
   0
 INSERT
   5
-A8
+A9
 100
 AcDbEntity
   8
@@ -5395,7 +5333,7 @@ Tent_10x10
   0
 MTEXT
   5
-A9
+AA
 100
 AcDbEntity
   8
@@ -5441,7 +5379,7 @@ iso3098
   0
 INSERT
   5
-AA
+AB
 100
 AcDbEntity
   8
@@ -5481,7 +5419,7 @@ Tent_10x20
   0
 INSERT
   5
-AB
+AC
 100
 AcDbEntity
   8
@@ -5521,7 +5459,7 @@ FoldedTarp_10x5
   0
 INSERT
   5
-AC
+AD
 100
 AcDbEntity
   8
@@ -5561,7 +5499,7 @@ Tent_10x10
   0
 INSERT
   5
-AD
+AE
 100
 AcDbEntity
   8
@@ -5601,7 +5539,7 @@ Station_5x5
   0
 INSERT
   5
-AE
+AF
 100
 AcDbEntity
   8
@@ -5641,7 +5579,7 @@ Station_5x5
   0
 MTEXT
   5
-AF
+B0
 100
 AcDbEntity
   8
@@ -5687,7 +5625,7 @@ iso3098
   0
 MTEXT
   5
-B0
+B1
 100
 AcDbEntity
   8
@@ -5733,7 +5671,7 @@ iso3098
   0
 MTEXT
   5
-B1
+B2
 100
 AcDbEntity
   8
@@ -5779,7 +5717,7 @@ iso3098
   0
 MTEXT
   5
-B2
+B3
 100
 AcDbEntity
   8
@@ -5825,7 +5763,7 @@ iso3098
   0
 MTEXT
   5
-B3
+B4
 100
 AcDbEntity
   8
@@ -5871,7 +5809,7 @@ iso3098
   0
 MTEXT
   5
-B4
+B5
 100
 AcDbEntity
   8
@@ -5917,7 +5855,7 @@ iso3098
   0
 MTEXT
   5
-B5
+B6
 100
 AcDbEntity
   8
@@ -5963,7 +5901,7 @@ iso3098
   0
 MTEXT
   5
-B6
+B7
 100
 AcDbEntity
   8
@@ -6009,7 +5947,7 @@ iso3098
   0
 MTEXT
   5
-B7
+B8
 100
 AcDbEntity
   8
@@ -6055,7 +5993,7 @@ iso3098
   0
 MTEXT
   5
-B8
+B9
 100
 AcDbEntity
   8
@@ -6099,6 +6037,86 @@ iso3098
  44
 1
   0
+INSERT
+  5
+BA
+100
+AcDbEntity
+  8
+RoleResources
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10
+ 10
+159
+ 20
+256
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+BB
+100
+AcDbEntity
+  8
+RoleVolunteers
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10
+ 10
+137
+ 20
+256
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
 ENDSEC
   0
 SECTION
@@ -6121,7 +6139,7 @@ D
   3
 ACAD_IMAGE_DICT
 350
-B9
+BC
   0
 DICTIONARY
   5
@@ -6132,18 +6150,6 @@ C
 AcDbDictionary
 281
     1
-  0
-IMAGEDEF_REACTOR
-  5
-77
-330
-78
-100
-AcDbRasterImageDefReactor
- 90
-    2
-330
-78
   0
 IMAGEDEF_REACTOR
   5
@@ -6169,9 +6175,21 @@ AcDbRasterImageDefReactor
 330
 7E
   0
+IMAGEDEF_REACTOR
+  5
+80
+330
+81
+100
+AcDbRasterImageDefReactor
+ 90
+    2
+330
+81
+  0
 DICTIONARY
   5
-B9
+BC
 330
 C
 100
@@ -6181,23 +6199,23 @@ AcDbDictionary
   3
 street_view
 350
-76
+79
   3
 sat_view
 350
-79
+7C
   3
 sat_view_light
 350
-7C
+7F
   0
 IMAGEDEF
   5
-76
+79
 102
 {ACAD_REACTORS
 330
-77
+7A
 102
 }
 100
@@ -6221,11 +6239,11 @@ C:/Users/mark/Documents/Hubster/map_cad/./street_view.jpg
   0
 IMAGEDEF
   5
-79
+7C
 102
 {ACAD_REACTORS
 330
-7A
+7D
 102
 }
 100
@@ -6249,11 +6267,11 @@ C:/Users/mark/Documents/Hubster/map_cad/./sat_view.jpg
   0
 IMAGEDEF
   5
-7C
+7F
 102
 {ACAD_REACTORS
 330
-7D
+80
 102
 }
 100
@@ -6277,7 +6295,7 @@ C:/Users/mark/Documents/Hubster/map_cad/./sat_view_light.png
   0
 PLOTSETTINGS
   5
-BA
+BD
 100
 AcDbPlotSettings
   6
