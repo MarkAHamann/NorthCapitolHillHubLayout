@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-RoleGreeter
+RoleEducation
   9
 $CELTYPE
   6
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-176.9140064874705
+112.5113379832628
  22
-195.6321807742805
+161.6076520976322
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-285.8610500306021
+79.16812106807086
  41
 1.366179275270184
  42
@@ -2463,7 +2463,7 @@ AcDbLayerTableRecord
   2
 RoleInfo
  70
-    4
+    0
  62
     1
   6
@@ -5135,95 +5135,9 @@ Tent_10x10
  45
 1
   0
-INSERT
+MTEXT
   5
 A6
-100
-AcDbEntity
-  8
-RoleInfo
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Tent_10x10
- 10
-149
- 20
-275
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-A7
-100
-AcDbEntity
-  8
-RoleInfo
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-153
- 20
-281
- 30
-0
- 40
-2
- 41
-0.4155555555555555
- 71
-    2
- 72
-    1
-  1
-1
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-A8
 100
 AcDbEntity
   8
@@ -5269,7 +5183,7 @@ iso3098
   0
 MTEXT
   5
-A9
+A7
 100
 AcDbEntity
   8
@@ -5315,93 +5229,7 @@ iso3098
   0
 INSERT
   5
-AA
-100
-AcDbEntity
-  8
-RoleEducation
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Tent_10x10
- 10
-127
- 20
-275
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-AB
-100
-AcDbEntity
-  8
-RoleEducation
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-131.4
- 20
-280.8
- 30
-0
- 40
-2
- 41
-1.111111111111111
- 71
-    2
- 72
-    1
-  1
-4
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-AC
+A8
 100
 AcDbEntity
   8
@@ -5441,7 +5269,7 @@ Tent_10x20
   0
 INSERT
   5
-AD
+A9
 100
 AcDbEntity
   8
@@ -5481,7 +5309,7 @@ FoldedTarp_10x5
   0
 INSERT
   5
-AE
+AA
 100
 AcDbEntity
   8
@@ -5521,7 +5349,7 @@ Tent_10x10
   0
 INSERT
   5
-AF
+AB
 100
 AcDbEntity
   8
@@ -5561,7 +5389,7 @@ Station_5x5
   0
 INSERT
   5
-B0
+AC
 100
 AcDbEntity
   8
@@ -5601,7 +5429,7 @@ Station_5x5
   0
 MTEXT
   5
-B1
+AD
 100
 AcDbEntity
   8
@@ -5647,53 +5475,7 @@ iso3098
   0
 MTEXT
   5
-B2
-100
-AcDbEntity
-  8
-RoleEducation
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-131
- 20
-273
- 30
-0
- 40
-2
- 41
-14.16444444444444
- 71
-    2
- 72
-    1
-  1
-EDUCATION
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-B3
+AE
 100
 AcDbEntity
   8
@@ -5739,53 +5521,7 @@ iso3098
   0
 MTEXT
   5
-B4
-100
-AcDbEntity
-  8
-RoleInfo
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-154
- 20
-273
- 30
-0
- 40
-2
- 41
-16.8
- 71
-    2
- 72
-    1
-  1
-INFORMATION
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-B5
+AF
 100
 AcDbEntity
   8
@@ -5831,7 +5567,7 @@ iso3098
   0
 MTEXT
   5
-B6
+B0
 100
 AcDbEntity
   8
@@ -5877,7 +5613,7 @@ iso3098
   0
 MTEXT
   5
-B7
+B1
 100
 AcDbEntity
   8
@@ -5923,7 +5659,7 @@ iso3098
   0
 MTEXT
   5
-B8
+B2
 100
 AcDbEntity
   8
@@ -5969,7 +5705,7 @@ iso3098
   0
 MTEXT
   5
-B9
+B3
 100
 AcDbEntity
   8
@@ -6015,7 +5751,7 @@ iso3098
   0
 INSERT
   5
-BA
+B4
 100
 AcDbEntity
   8
@@ -6055,7 +5791,7 @@ Tent_10x10
   0
 INSERT
   5
-BB
+B5
 100
 AcDbEntity
   8
@@ -6095,7 +5831,7 @@ Tent_10x10
   0
 MTEXT
   5
-BC
+B6
 100
 AcDbEntity
   8
@@ -6141,7 +5877,7 @@ standard
   0
 MTEXT
   5
-BD
+B7
 100
 AcDbEntity
   8
@@ -6172,6 +5908,270 @@ AcDbMText
 GREETER
   7
 standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+B8
+100
+AcDbEntity
+  8
+RoleEducation
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10
+ 10
+127
+ 20
+280
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+B9
+100
+AcDbEntity
+  8
+RoleEducation
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+131.4
+ 20
+285.8
+ 30
+0
+ 40
+2
+ 41
+1.111111111111111
+ 71
+    2
+ 72
+    1
+  1
+4
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+BA
+100
+AcDbEntity
+  8
+RoleEducation
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+131
+ 20
+278
+ 30
+0
+ 40
+2
+ 41
+14.16444444444444
+ 71
+    2
+ 72
+    1
+  1
+EDUCATION
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+BB
+100
+AcDbEntity
+  8
+RoleInfo
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10
+ 10
+149
+ 20
+280
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+BC
+100
+AcDbEntity
+  8
+RoleInfo
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+153
+ 20
+286
+ 30
+0
+ 40
+2
+ 41
+0.4155555555555555
+ 71
+    2
+ 72
+    1
+  1
+1
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+BD
+100
+AcDbEntity
+  8
+RoleInfo
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+154
+ 20
+278
+ 30
+0
+ 40
+2
+ 41
+16.8
+ 71
+    2
+ 72
+    1
+  1
+INFORMATION
+  7
+iso3098
 210
 0
 220
