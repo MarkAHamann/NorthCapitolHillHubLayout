@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--5.978138830822069
+0.07260522811486796
  20
--13.15055407374793
+0.01387795275590551
  30
 0
   9
@@ -913,7 +913,7 @@ $EXTNAMES
   9
 $PSVPSCALE
  40
-0.003333333333333334
+0.002857142857142857
   9
 $OLESTARTUP
 290
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-76.78583754111052
+107.4199756398039
  22
-150.6002605161588
+171.8637201356433
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-35.27573669747864
+132.4310708501457
  41
-1.366179275270184
+1.358431860609832
  42
 50
  43
@@ -5831,55 +5831,9 @@ standard
  44
 1
   0
-MTEXT
-  5
-BB
-100
-AcDbEntity
-  8
-RoleEducation
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-131
- 20
-278
- 30
-0
- 40
-2
- 41
-14.16444444444444
- 71
-    2
- 72
-    1
-  1
-EDUCATION
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-BC
+BB
 100
 AcDbEntity
   8
@@ -5919,7 +5873,7 @@ Tent_10x10
   0
 MTEXT
   5
-BD
+BC
 100
 AcDbEntity
   8
@@ -5965,7 +5919,7 @@ iso3098
   0
 MTEXT
   5
-BE
+BD
 100
 AcDbEntity
   8
@@ -6011,7 +5965,7 @@ iso3098
   0
 MTEXT
   5
-BF
+BE
 100
 AcDbEntity
   8
@@ -6057,7 +6011,7 @@ iso3098
   0
 INSERT
   5
-C0
+BF
 100
 AcDbEntity
   8
@@ -6097,7 +6051,7 @@ Tent_10x10
   0
 INSERT
   5
-C1
+C0
 100
 AcDbEntity
   8
@@ -6137,7 +6091,7 @@ Tent_10x10
   0
 MTEXT
   5
-C2
+C1
 100
 AcDbEntity
   8
@@ -6183,53 +6137,7 @@ iso3098
   0
 MTEXT
   5
-C3
-100
-AcDbEntity
-  8
-RoleEducation
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-130.9
- 20
-284.8
- 30
-0
- 40
-4
- 41
-2.222222222222221
- 71
-    5
- 72
-    1
-  1
-4
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-C4
+C2
 100
 AcDbEntity
   8
@@ -6275,7 +6183,7 @@ iso3098
   0
 MTEXT
   5
-C5
+C3
 100
 AcDbEntity
   8
@@ -6321,7 +6229,7 @@ iso3098
   0
 MTEXT
   5
-C6
+C4
 100
 AcDbEntity
   8
@@ -6363,6 +6271,86 @@ iso3098
  73
     2
  44
+1
+  0
+INSERT
+  5
+C5
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10_thru
+ 10
+132
+ 20
+285
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+C6
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Tent_10x10_thru
+ 10
+132
+ 20
+285
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
 1
   0
 INSERT
@@ -6503,9 +6491,9 @@ AcDbBlockReference
   2
 Tent_10x10_thru
  10
-132
+134
  20
-285
+286
  30
 0
  41
@@ -6583,9 +6571,9 @@ AcDbBlockReference
   2
 Tent_10x10_thru
  10
-134
+130
  20
-286
+290
  30
 0
  41
@@ -6663,9 +6651,9 @@ AcDbBlockReference
   2
 Tent_10x10_thru
  10
-130
+132
  20
-290
+285
  30
 0
  41
@@ -6925,84 +6913,96 @@ Tent_10x10_thru
  45
 1
   0
-INSERT
+MTEXT
   5
 D5
 100
 AcDbEntity
   8
-0
+RoleEducation
   6
 ByLayer
  62
   256
 370
-   -1
+   50
 100
-AcDbBlockReference
-  2
-Tent_10x10_thru
+AcDbMText
  10
-132
+131
  20
-285
+278
  30
 0
+ 40
+2
  41
-1
- 42
-1
- 43
+14.16444444444444
+ 71
+    2
+ 72
+    1
+  1
+EDUCATION
+  7
+iso3098
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
 1
- 45
-1
   0
-INSERT
+MTEXT
   5
 D6
 100
 AcDbEntity
   8
-0
+RoleEducation
   6
 ByLayer
  62
   256
 370
-   -1
+   50
 100
-AcDbBlockReference
-  2
-Tent_10x10_thru
+AcDbMText
  10
-132
+130.9
  20
-285
+284.8
  30
 0
+ 40
+4
  41
-1
- 42
-1
- 43
+2.222222222222221
+ 71
+    5
+ 72
+    1
+  1
+4
+  7
+iso3098
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
-1
- 45
 1
   0
 INSERT
