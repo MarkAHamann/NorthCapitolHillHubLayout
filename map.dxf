@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-RoleMessageTaker
+StationMultipurpose
   9
 $CELTYPE
   6
@@ -2599,13 +2599,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-StationChange
+StationLoo
  70
     4
  62
-  200
-420
-11141375
+    4
   6
 CONTINUOUS
 370
@@ -2623,11 +2621,13 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-StationLoo
+StationMultipurpose
  70
-    4
+    0
  62
-    4
+  200
+420
+11141375
   6
 CONTINUOUS
 370
@@ -5577,7 +5577,7 @@ BA
 100
 AcDbEntity
   8
-StationChange
+StationMultipurpose
   6
 ByLayer
  62
@@ -5789,52 +5789,6 @@ BF
 100
 AcDbEntity
   8
-StationChange
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-79
- 20
-304
- 30
-0
- 40
-2
- 41
-9.513333333333332
- 71
-    2
- 72
-    1
-  1
-CHANGE
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-C0
-100
-AcDbEntity
-  8
 StationLoo
   6
 ByLayer
@@ -5877,7 +5831,7 @@ iso3098
   0
 MTEXT
   5
-C1
+C0
 100
 AcDbEntity
   8
@@ -5923,7 +5877,7 @@ iso3098
   0
 INSERT
   5
-C2
+C1
 100
 AcDbEntity
   8
@@ -5963,7 +5917,7 @@ Tent_10x10
   0
 MTEXT
   5
-C3
+C2
 100
 AcDbEntity
   8
@@ -6009,7 +5963,7 @@ iso3098
   0
 MTEXT
   5
-C4
+C3
 100
 AcDbEntity
   8
@@ -6055,7 +6009,7 @@ iso3098
   0
 MTEXT
   5
-C5
+C4
 100
 AcDbEntity
   8
@@ -6101,7 +6055,7 @@ iso3098
   0
 INSERT
   5
-C6
+C5
 100
 AcDbEntity
   8
@@ -6141,7 +6095,7 @@ Tent_10x10
   0
 INSERT
   5
-C7
+C6
 100
 AcDbEntity
   8
@@ -6181,7 +6135,7 @@ Tent_10x10
   0
 MTEXT
   5
-C8
+C7
 100
 AcDbEntity
   8
@@ -6227,7 +6181,7 @@ iso3098
   0
 MTEXT
   5
-C9
+C8
 100
 AcDbEntity
   8
@@ -6273,7 +6227,7 @@ iso3098
   0
 MTEXT
   5
-CA
+C9
 100
 AcDbEntity
   8
@@ -6319,7 +6273,7 @@ iso3098
   0
 MTEXT
   5
-CB
+CA
 100
 AcDbEntity
   8
@@ -6365,7 +6319,7 @@ iso3098
   0
 MTEXT
   5
-CC
+CB
 100
 AcDbEntity
   8
@@ -6411,7 +6365,7 @@ iso3098
   0
 MTEXT
   5
-CD
+CC
 100
 AcDbEntity
   8
@@ -6457,7 +6411,7 @@ iso3098
   0
 INSERT
   5
-CE
+CD
 100
 AcDbEntity
   8
@@ -6497,7 +6451,7 @@ Tent_10x10_thru
   0
 MTEXT
   5
-CF
+CE
 100
 AcDbEntity
   8
@@ -6543,7 +6497,7 @@ standard
   0
 MTEXT
   5
-D0
+CF
 100
 AcDbEntity
   8
@@ -6589,7 +6543,7 @@ standard
   0
 INSERT
   5
-D1
+D0
 100
 AcDbEntity
   8
@@ -6625,6 +6579,52 @@ Tent_10x10_corner
  44
 1
  45
+1
+  0
+MTEXT
+  5
+D1
+100
+AcDbEntity
+  8
+StationMultipurpose
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+79
+ 20
+304
+ 30
+0
+ 40
+2
+ 41
+19.44
+ 71
+    2
+ 72
+    1
+  1
+MULTIPURPOSE
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
 1
   0
 ENDSEC
