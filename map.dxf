@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-27.5
+0
  20
-88.94444444444444
+0
  30
 0
   9
 $EXTMAX
  10
-193.9977777777778
+340.8440000000001
  20
-316
+536.928
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-Flow
+RoleInfo
   9
 $CELTYPE
   6
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--0.03606472374175859
+-0.01349741405424471
  20
--0.2246948901040103
+-0.2093637194998513
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-104.816877965597
+170.504359490275
  22
-170.429182749902
+175.8028169014084
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-102.4398565019472
+320.2387659289068
  41
-1.366179275270184
+1.444738583719391
  42
 50
  43
@@ -2241,7 +2241,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    5
+    1
  62
     7
   6
@@ -2307,7 +2307,7 @@ AcDbLayerTableRecord
   2
 Flow
  70
-    0
+    4
  62
     6
   6
@@ -2417,7 +2417,7 @@ AcDbLayerTableRecord
   2
 MapSatLight
  70
-    5
+    4
  62
     7
   6
@@ -2529,7 +2529,7 @@ AcDbLayerTableRecord
   2
 RoleInfo
  70
-    4
+    0
  62
     1
   6
@@ -3685,11 +3685,11 @@ AcDbEntity
   8
 0
   6
-ByLayer
+DOTTINY
  62
   256
 370
-   50
+   -1
 100
 AcDbPolyline
  90
@@ -3701,21 +3701,21 @@ AcDbPolyline
  10
 -5
  20
--5
+0
  10
-5
- 20
--5
- 10
-5
+5.000000000000001
  20
 0
  10
+5.000000000000001
+ 20
+-7.5
+ 10
 -5
  20
-0
+-7.5
   0
-LWPOLYLINE
+LINE
   5
 84
 100
@@ -3727,31 +3727,17 @@ ByLayer
  62
   256
 370
-   50
+   -1
 100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
+AcDbLine
+ 10
+-5
+ 20
 0
- 10
--4
- 20
--1
- 10
-4
- 20
--1
- 10
-4
- 20
--4
- 10
--4
- 20
--4
+ 11
+5.000000000000001
+ 21
+0
   0
 ENDBLK
   5
@@ -6023,55 +6009,9 @@ iso3098
  44
 1
   0
-MTEXT
-  5
-C9
-100
-AcDbEntity
-  8
-StationPersonalPosting
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-152
- 20
-308
- 30
-0
- 40
-2
- 41
-26.00888888888889
- 71
-    2
- 72
-    1
-  1
-PERSONAL POSTING
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-CA
+C9
 100
 AcDbEntity
   8
@@ -6111,53 +6051,7 @@ Tent_10x10
   0
 MTEXT
   5
-CB
-100
-AcDbEntity
-  8
-RoleInfo
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-154
- 20
-278
- 30
-0
- 40
-2
- 41
-16.8
- 71
-    2
- 72
-    1
-  1
-INFORMATION
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-CC
+CA
 100
 AcDbEntity
   8
@@ -6203,7 +6097,7 @@ iso3098
   0
 MTEXT
   5
-CD
+CB
 100
 AcDbEntity
   8
@@ -6249,7 +6143,7 @@ iso3098
   0
 INSERT
   5
-CE
+CC
 100
 AcDbEntity
   8
@@ -6289,7 +6183,7 @@ Tent_10x10
   0
 INSERT
   5
-CF
+CD
 100
 AcDbEntity
   8
@@ -6329,7 +6223,7 @@ Tent_10x10
   0
 MTEXT
   5
-D0
+CE
 100
 AcDbEntity
   8
@@ -6375,7 +6269,7 @@ iso3098
   0
 MTEXT
   5
-D1
+CF
 100
 AcDbEntity
   8
@@ -6421,7 +6315,7 @@ iso3098
   0
 MTEXT
   5
-D2
+D0
 100
 AcDbEntity
   8
@@ -6467,7 +6361,7 @@ iso3098
   0
 MTEXT
   5
-D3
+D1
 100
 AcDbEntity
   8
@@ -6513,7 +6407,7 @@ iso3098
   0
 MTEXT
   5
-D4
+D2
 100
 AcDbEntity
   8
@@ -6559,7 +6453,7 @@ iso3098
   0
 MTEXT
   5
-D5
+D3
 100
 AcDbEntity
   8
@@ -6605,7 +6499,7 @@ iso3098
   0
 INSERT
   5
-D6
+D4
 100
 AcDbEntity
   8
@@ -6645,7 +6539,7 @@ Tent_10x10_thru
   0
 MTEXT
   5
-D7
+D5
 100
 AcDbEntity
   8
@@ -6691,7 +6585,7 @@ standard
   0
 MTEXT
   5
-D8
+D6
 100
 AcDbEntity
   8
@@ -6737,7 +6631,7 @@ standard
   0
 INSERT
   5
-D9
+D7
 100
 AcDbEntity
   8
@@ -6777,7 +6671,7 @@ Tent_10x10_corner
   0
 MTEXT
   5
-DA
+D8
 100
 AcDbEntity
   8
@@ -6823,7 +6717,7 @@ iso3098
   0
 LINE
   5
-DB
+D9
 100
 AcDbEntity
   8
@@ -6847,7 +6741,7 @@ AcDbLine
   0
 LINE
   5
-DC
+DA
 100
 AcDbEntity
   8
@@ -6871,7 +6765,7 @@ AcDbLine
   0
 LINE
   5
-DD
+DB
 100
 AcDbEntity
   8
@@ -6886,6 +6780,54 @@ CONTINUOUS
 AcDbLine
  10
 87
+ 20
+109
+ 11
+87
+ 21
+99
+  0
+LINE
+  5
+DC
+100
+AcDbEntity
+  8
+RolePreSafetyCheck
+  6
+DOTTINY
+ 62
+  256
+370
+   25
+100
+AcDbLine
+ 10
+87
+ 20
+99
+ 11
+77
+ 21
+99
+  0
+LINE
+  5
+DD
+100
+AcDbEntity
+  8
+RolePreSafetyCheck
+  6
+DOTTINY
+ 62
+  256
+370
+   25
+100
+AcDbLine
+ 10
+77
  20
 109
  11
@@ -6913,61 +6855,13 @@ AcDbLine
  20
 99
  11
-77
+87
  21
-99
+109
   0
 LINE
   5
 DF
-100
-AcDbEntity
-  8
-RolePreSafetyCheck
-  6
-DOTTINY
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-77
- 20
-109
- 11
-87
- 21
-99
-  0
-LINE
-  5
-E0
-100
-AcDbEntity
-  8
-RolePreSafetyCheck
-  6
-DOTTINY
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-87
- 20
-99
- 11
-87
- 21
-109
-  0
-LINE
-  5
-E1
 100
 AcDbEntity
   8
@@ -6991,7 +6885,7 @@ AcDbLine
   0
 INSERT
   5
-E2
+E0
 100
 AcDbEntity
   8
@@ -7033,7 +6927,7 @@ TrafficCone
   0
 INSERT
   5
-E3
+E1
 100
 AcDbEntity
   8
@@ -7075,7 +6969,7 @@ TrafficCone
   0
 INSERT
   5
-E4
+E2
 100
 AcDbEntity
   8
@@ -7117,7 +7011,7 @@ TrafficCone
   0
 INSERT
   5
-E5
+E3
 100
 AcDbEntity
   8
@@ -7159,7 +7053,7 @@ TrafficCone
   0
 INSERT
   5
-E6
+E4
 100
 AcDbEntity
   8
@@ -7201,7 +7095,7 @@ TrafficCone
   0
 INSERT
   5
-E7
+E5
 100
 AcDbEntity
   8
@@ -7243,7 +7137,7 @@ TrafficCone
   0
 INSERT
   5
-E8
+E6
 100
 AcDbEntity
   8
@@ -7285,7 +7179,7 @@ TrafficCone
   0
 INSERT
   5
-E9
+E7
 100
 AcDbEntity
   8
@@ -7327,7 +7221,7 @@ TrafficCone
   0
 INSERT
   5
-EA
+E8
 100
 AcDbEntity
   8
@@ -7369,7 +7263,7 @@ TrafficCone
   0
 INSERT
   5
-EB
+E9
 100
 AcDbEntity
   8
@@ -7411,7 +7305,7 @@ TrafficCone
   0
 MTEXT
   5
-EC
+EA
 100
 AcDbEntity
   8
@@ -7457,7 +7351,7 @@ iso3098
   0
 LINE
   5
-ED
+EB
 100
 AcDbEntity
   8
@@ -7481,7 +7375,7 @@ AcDbLine
   0
 LINE
   5
-EE
+EC
 100
 AcDbEntity
   8
@@ -7505,7 +7399,7 @@ AcDbLine
   0
 LINE
   5
-EF
+ED
 100
 AcDbEntity
   8
@@ -7529,7 +7423,7 @@ AcDbLine
   0
 LINE
   5
-F0
+EE
 100
 AcDbEntity
   8
@@ -7553,7 +7447,7 @@ AcDbLine
   0
 LINE
   5
-F1
+EF
 100
 AcDbEntity
   8
@@ -7572,6 +7466,54 @@ AcDbLine
 297
  11
 168
+ 21
+297
+  0
+LINE
+  5
+F0
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+168
+ 20
+297
+ 11
+166
+ 21
+295
+  0
+LINE
+  5
+F1
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+166
+ 20
+295
+ 11
+166
  21
 297
   0
@@ -7591,13 +7533,13 @@ ByLayer
 100
 AcDbLine
  10
-168
+178
  20
-297
+254
  11
-166
+180
  21
-295
+254
   0
 LINE
   5
@@ -7615,13 +7557,13 @@ ByLayer
 100
 AcDbLine
  10
-166
+180
  20
-295
+254
  11
-166
+178
  21
-297
+252
   0
 LINE
   5
@@ -7641,63 +7583,15 @@ AcDbLine
  10
 178
  20
-254
+252
  11
-180
+178
  21
 254
   0
 LINE
   5
 F5
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-180
- 20
-254
- 11
-178
- 21
-252
-  0
-LINE
-  5
-F6
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-178
- 20
-252
- 11
-178
- 21
-254
-  0
-LINE
-  5
-F7
 100
 AcDbEntity
   8
@@ -7721,6 +7615,54 @@ AcDbLine
   0
 LINE
   5
+F6
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+181
+ 20
+225
+ 11
+181
+ 21
+226
+  0
+LINE
+  5
+F7
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+181
+ 20
+226
+ 11
+180
+ 21
+225
+  0
+LINE
+  5
 F8
 100
 AcDbEntity
@@ -7735,65 +7677,17 @@ ByLayer
 100
 AcDbLine
  10
-181
+180
  20
 225
  11
 181
  21
-226
+225
   0
 LINE
   5
 F9
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-181
- 20
-226
- 11
-180
- 21
-225
-  0
-LINE
-  5
-FA
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-180
- 20
-225
- 11
-181
- 21
-225
-  0
-LINE
-  5
-FB
 100
 AcDbEntity
   8
@@ -7817,7 +7711,7 @@ AcDbLine
   0
 LINE
   5
-FC
+FA
 100
 AcDbEntity
   8
@@ -7841,7 +7735,7 @@ AcDbLine
   0
 LINE
   5
-FD
+FB
 100
 AcDbEntity
   8
@@ -7865,7 +7759,7 @@ AcDbLine
   0
 LINE
   5
-FE
+FC
 100
 AcDbEntity
   8
@@ -7889,7 +7783,7 @@ AcDbLine
   0
 MTEXT
   5
-FF
+FD
 100
 AcDbEntity
   8
@@ -7935,7 +7829,7 @@ iso3098
   0
 MTEXT
   5
-100
+FE
 100
 AcDbEntity
   8
@@ -7981,7 +7875,7 @@ iso3098
   0
 TEXT
   5
-101
+FF
 100
 AcDbEntity
   8
@@ -8027,7 +7921,7 @@ AcDbText
   0
 TEXT
   5
-102
+100
 100
 AcDbEntity
   8
@@ -8073,7 +7967,7 @@ AcDbText
   0
 LINE
   5
-103
+101
 100
 AcDbEntity
   8
@@ -8097,6 +7991,54 @@ AcDbLine
   0
 LINE
   5
+102
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+133
+ 20
+292
+ 11
+133
+ 21
+295
+  0
+LINE
+  5
+103
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+133
+ 20
+295
+ 11
+136
+ 21
+292
+  0
+LINE
+  5
 104
 100
 AcDbEntity
@@ -8111,61 +8053,105 @@ ByLayer
 100
 AcDbLine
  10
-133
+136
  20
 292
  11
 133
  21
-295
+292
   0
-LINE
+MTEXT
   5
 105
 100
 AcDbEntity
   8
-Flow
+StationPersonalPosting
   6
 ByLayer
  62
   256
 370
-   -1
+   50
 100
-AcDbLine
+AcDbMText
  10
-133
+151.2616649016878
  20
-295
- 11
-136
- 21
-292
+305.5281824969547
+ 30
+0
+ 40
+2
+ 41
+26.00888888888889
+ 71
+    2
+ 72
+    1
+  1
+PERSONAL POSTING
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
   0
-LINE
+MTEXT
   5
 106
 100
 AcDbEntity
   8
-Flow
+RoleInfo
   6
 ByLayer
  62
   256
 370
-   -1
+   50
 100
-AcDbLine
+AcDbMText
  10
-136
+154
  20
-292
- 11
-133
- 21
-292
+278
+ 30
+0
+ 40
+2
+ 41
+17.72
+ 71
+    2
+ 72
+    1
+  1
+INFRA / INFO
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
   0
 ENDSEC
   0
