@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--0.0256172668869199
+-0.03606472374175859
  20
--0.2364843499394795
+-0.2246948901040103
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-256.466228359727
+274.7852446711644
  22
-216.1989566563467
+286.0186037300485
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-543.6945784499335
+543.6945784499895
  41
 1.366179275270184
  42
@@ -2265,9 +2265,7 @@ AreaDescription
  70
     4
  62
-   56
-420
-8421376
+    6
   6
 CONTINUOUS
 370
@@ -2311,7 +2309,7 @@ Flow
  70
     0
  62
-    4
+    6
   6
 DASHEDTINY
 370
@@ -2601,9 +2599,7 @@ RolePreSafetyCheck
  70
     4
  62
-    7
-420
-328965
+    6
   6
 CONTINUOUS
 370
@@ -2695,7 +2691,7 @@ StationLoo
  70
     4
  62
-    4
+    8
   6
 CONTINUOUS
 370
@@ -2775,7 +2771,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso3098
+standard
  70
     0
  40
@@ -2789,7 +2785,7 @@ iso3098
  42
 1
   3
-iso3098
+standard
   4
 
   0
@@ -2803,7 +2799,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso3098
  70
     0
  40
@@ -2817,7 +2813,7 @@ standard
  42
 1
   3
-standard
+iso3098
   4
 
   0
@@ -7419,102 +7415,6 @@ EC
 100
 AcDbEntity
   8
-AreaDescription
-  6
-ByLayer
- 62
-   40
-420
-16755200
-370
-   50
-100
-AcDbMText
- 10
-77.76136019492908
- 20
-263.2150543567099
- 30
-0
- 40
-2
- 41
-21.54
- 71
-    5
- 72
-    1
-  1
-HUB USE\PWEST OF CONES
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-ED
-100
-AcDbEntity
-  8
-AreaDescription
-  6
-ByLayer
- 62
-   40
-420
-16755200
-370
-   50
-100
-AcDbMText
- 10
-84.22187579891003
- 20
-144.5451762732761
- 30
-0
- 40
-2
- 41
-12.36
- 71
-    5
- 72
-    1
-  1
-TERRACE:\PQUIET\PAREA
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-EE
-100
-AcDbEntity
-  8
 RolePreSafetyCheck
   6
 ByLayer
@@ -7557,7 +7457,7 @@ iso3098
   0
 LINE
   5
-EF
+ED
 100
 AcDbEntity
   8
@@ -7581,7 +7481,7 @@ AcDbLine
   0
 LINE
   5
-F0
+EE
 100
 AcDbEntity
   8
@@ -7605,7 +7505,7 @@ AcDbLine
   0
 LINE
   5
-F1
+EF
 100
 AcDbEntity
   8
@@ -7629,7 +7529,7 @@ AcDbLine
   0
 LINE
   5
-F2
+F0
 100
 AcDbEntity
   8
@@ -7653,7 +7553,7 @@ AcDbLine
   0
 LINE
   5
-F3
+F1
 100
 AcDbEntity
   8
@@ -7672,6 +7572,54 @@ AcDbLine
 297
  11
 168
+ 21
+297
+  0
+LINE
+  5
+F2
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+168
+ 20
+297
+ 11
+166
+ 21
+295
+  0
+LINE
+  5
+F3
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+166
+ 20
+295
+ 11
+166
  21
 297
   0
@@ -7691,13 +7639,13 @@ ByLayer
 100
 AcDbLine
  10
-168
+178
  20
-297
+254
  11
-166
+180
  21
-295
+254
   0
 LINE
   5
@@ -7715,13 +7663,13 @@ ByLayer
 100
 AcDbLine
  10
-166
+180
  20
-295
+254
  11
-166
+178
  21
-297
+252
   0
 LINE
   5
@@ -7741,107 +7689,15 @@ AcDbLine
  10
 178
  20
-254
+252
  11
-180
+178
  21
 254
   0
 LINE
   5
 F7
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-180
- 20
-254
- 11
-178
- 21
-252
-  0
-LINE
-  5
-F8
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-178
- 20
-252
- 11
-178
- 21
-254
-  0
-TEXT
-  5
-F9
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbText
- 10
-180
- 20
-290
- 30
-0
- 40
-2
-  1
-SELF HELP
- 50
-0
- 41
-1
- 51
-0
-  7
-iso3098
- 71
-    0
-210
-0
-220
-0
-230
-1
-100
-AcDbText
-  0
-LINE
-  5
-FA
 100
 AcDbEntity
   8
@@ -7865,79 +7721,79 @@ AcDbLine
   0
 LINE
   5
+F8
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+181
+ 20
+225
+ 11
+181
+ 21
+226
+  0
+LINE
+  5
+F9
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+181
+ 20
+226
+ 11
+180
+ 21
+225
+  0
+LINE
+  5
+FA
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+180
+ 20
+225
+ 11
+181
+ 21
+225
+  0
+LINE
+  5
 FB
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-181
- 20
-225
- 11
-181
- 21
-226
-  0
-LINE
-  5
-FC
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-181
- 20
-226
- 11
-180
- 21
-225
-  0
-LINE
-  5
-FD
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-180
- 20
-225
- 11
-181
- 21
-225
-  0
-LINE
-  5
-FE
 100
 AcDbEntity
   8
@@ -7961,7 +7817,7 @@ AcDbLine
   0
 LINE
   5
-FF
+FC
 100
 AcDbEntity
   8
@@ -7985,7 +7841,7 @@ AcDbLine
   0
 LINE
   5
-100
+FD
 100
 AcDbEntity
   8
@@ -8009,7 +7865,7 @@ AcDbLine
   0
 LINE
   5
-101
+FE
 100
 AcDbEntity
   8
@@ -8030,6 +7886,190 @@ AcDbLine
 193
  21
 260
+  0
+MTEXT
+  5
+FF
+100
+AcDbEntity
+  8
+AreaDescription
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+77.76136019492908
+ 20
+263.2150543567099
+ 30
+0
+ 40
+2
+ 41
+21.54
+ 71
+    5
+ 72
+    1
+  1
+HUB USE\PWEST OF CONES
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+100
+100
+AcDbEntity
+  8
+AreaDescription
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+84.22187579891003
+ 20
+144.5451762732761
+ 30
+0
+ 40
+2
+ 41
+12.36
+ 71
+    5
+ 72
+    1
+  1
+TERRACE:\PQUIET\PAREA
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+TEXT
+  5
+101
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+   40
+420
+16755200
+370
+   50
+100
+AcDbText
+ 10
+180
+ 20
+290
+ 30
+0
+ 40
+2
+  1
+SELF
+ 50
+0
+ 41
+1
+ 51
+0
+  7
+iso3098
+ 71
+    0
+210
+0
+220
+0
+230
+1
+100
+AcDbText
+  0
+TEXT
+  5
+102
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+   56
+420
+8421376
+370
+   50
+100
+AcDbText
+ 10
+187.4
+ 20
+290
+ 30
+0
+ 40
+2
+  1
+HELP
+ 50
+0
+ 41
+1
+ 51
+0
+  7
+iso3098
+ 71
+    0
+210
+0
+220
+0
+230
+1
+100
+AcDbText
   0
 ENDSEC
   0
@@ -8053,7 +8093,7 @@ D
   3
 ACAD_IMAGE_DICT
 350
-102
+103
   0
 DICTIONARY
   5
@@ -8103,7 +8143,7 @@ AcDbRasterImageDefReactor
   0
 DICTIONARY
   5
-102
+103
 330
 C
 100
@@ -8209,7 +8249,7 @@ AcDbRasterImageDef
   0
 PLOTSETTINGS
   5
-103
+104
 100
 AcDbPlotSettings
   6
