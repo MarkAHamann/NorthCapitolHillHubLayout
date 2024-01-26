@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-RoleRadio
+StationPersonalPosting
   9
 $CELTYPE
   6
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--0.02430711865818769
+-0.006594238012251674
  20
--0.2076651535455506
+-0.2553561712335095
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-209.9546506990757
+98.43033070295625
  22
-204.6484197729378
+168.255316875913
  13
 0
  23
@@ -1149,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-433.3899961834745
+56.20154529096241
  41
-1.444738583719391
+1.642265193370166
  42
 50
  43
@@ -2619,7 +2619,7 @@ AcDbLayerTableRecord
   2
 RoleRadio
  70
-    0
+    4
  62
   255
 420
@@ -2711,7 +2711,7 @@ AcDbLayerTableRecord
   2
 StationMultipurpose
  70
-    5
+    4
  62
   200
 420
@@ -3689,7 +3689,7 @@ ByLayer
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -3713,7 +3713,7 @@ DOTTINY
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -3737,7 +3737,7 @@ DOTTINY
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -3761,7 +3761,7 @@ DOTTINY
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -3785,7 +3785,7 @@ DOTTINY
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -3809,7 +3809,7 @@ DOTTINY
  62
   256
 370
-   25
+   50
 100
 AcDbLine
  10
@@ -8103,52 +8103,6 @@ MTEXT
 100
 AcDbEntity
   8
-StationPersonalPosting
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-151.2616649016878
- 20
-305.5281824969547
- 30
-0
- 40
-2
- 41
-26.00888888888889
- 71
-    2
- 72
-    1
-  1
-PERSONAL POSTING
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-109
-100
-AcDbEntity
-  8
 RoleInfo
   6
 ByLayer
@@ -8191,7 +8145,7 @@ iso3098
   0
 MTEXT
   5
-10A
+109
 100
 AcDbEntity
   8
@@ -8235,6 +8189,98 @@ iso3098
  44
 1
   0
+MTEXT
+  5
+10A
+100
+AcDbEntity
+  8
+StationPersonalPosting
+  6
+CONTINUOUS
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+150.4
+ 20
+310
+ 30
+0
+ 40
+3
+ 41
+1.356666666666666
+ 71
+    5
+ 72
+    1
+  1
+5
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+10B
+100
+AcDbEntity
+  8
+StationPersonalPosting
+  6
+ByLayer
+ 62
+  256
+370
+   40
+100
+AcDbMText
+ 10
+151.2616649016878
+ 20
+305.5281824969547
+ 30
+0
+ 40
+2
+ 41
+26.00888888888889
+ 71
+    2
+ 72
+    1
+  1
+PERSONAL POSTING
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
 ENDSEC
   0
 SECTION
@@ -8257,7 +8303,7 @@ D
   3
 ACAD_IMAGE_DICT
 350
-10B
+10C
   0
 DICTIONARY
   5
@@ -8307,7 +8353,7 @@ A3
   0
 DICTIONARY
   5
-10B
+10C
 330
 C
 100
@@ -8413,7 +8459,7 @@ AcDbRasterImageDef
   0
 PLOTSETTINGS
   5
-10C
+10D
 100
 AcDbPlotSettings
   6
