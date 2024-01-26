@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+RoleRadio
   9
 $CELTYPE
   6
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--0.001246274887060417
+-0.02430711865818769
  20
--0.2155076437250084
+-0.2076651535455506
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-226.1612098552811
+209.9546506990757
  22
-279.0208494920448
+204.6484197729378
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-536.0464126922819
+433.3899961834745
  41
 1.444738583719391
  42
@@ -2619,7 +2619,7 @@ AcDbLayerTableRecord
   2
 RoleRadio
  70
-    4
+    0
  62
   255
 420
@@ -5959,52 +5959,6 @@ CA
 100
 AcDbEntity
   8
-RoleRadio
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbMText
- 10
-50
- 20
-258
- 30
-0
- 40
-2
- 41
-7.566666666666665
- 71
-    2
- 72
-    1
-  1
-RADIO
-  7
-iso3098
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-CB
-100
-AcDbEntity
-  8
 RoleHubManager
   6
 ByLayer
@@ -6047,7 +6001,7 @@ iso3098
   0
 MTEXT
   5
-CC
+CB
 100
 AcDbEntity
   8
@@ -6093,7 +6047,7 @@ iso3098
   0
 INSERT
   5
-CD
+CC
 100
 AcDbEntity
   8
@@ -6133,7 +6087,7 @@ Tent_10x10
   0
 MTEXT
   5
-CE
+CD
 100
 AcDbEntity
   8
@@ -6179,7 +6133,7 @@ iso3098
   0
 MTEXT
   5
-CF
+CE
 100
 AcDbEntity
   8
@@ -6225,7 +6179,7 @@ iso3098
   0
 INSERT
   5
-D0
+CF
 100
 AcDbEntity
   8
@@ -6265,7 +6219,7 @@ Tent_10x10
   0
 INSERT
   5
-D1
+D0
 100
 AcDbEntity
   8
@@ -6305,7 +6259,7 @@ Tent_10x10
   0
 MTEXT
   5
-D2
+D1
 100
 AcDbEntity
   8
@@ -6351,7 +6305,7 @@ iso3098
   0
 MTEXT
   5
-D3
+D2
 100
 AcDbEntity
   8
@@ -6397,7 +6351,7 @@ iso3098
   0
 MTEXT
   5
-D4
+D3
 100
 AcDbEntity
   8
@@ -6443,7 +6397,7 @@ iso3098
   0
 MTEXT
   5
-D5
+D4
 100
 AcDbEntity
   8
@@ -6489,7 +6443,7 @@ iso3098
   0
 MTEXT
   5
-D6
+D5
 100
 AcDbEntity
   8
@@ -6535,7 +6489,7 @@ iso3098
   0
 MTEXT
   5
-D7
+D6
 100
 AcDbEntity
   8
@@ -6581,7 +6535,7 @@ iso3098
   0
 INSERT
   5
-D8
+D7
 100
 AcDbEntity
   8
@@ -6621,7 +6575,7 @@ Tent_10x10_thru
   0
 MTEXT
   5
-D9
+D8
 100
 AcDbEntity
   8
@@ -6667,7 +6621,7 @@ standard
   0
 MTEXT
   5
-DA
+D9
 100
 AcDbEntity
   8
@@ -6713,7 +6667,7 @@ standard
   0
 INSERT
   5
-DB
+DA
 100
 AcDbEntity
   8
@@ -6753,7 +6707,7 @@ Tent_10x10_corner
   0
 MTEXT
   5
-DC
+DB
 100
 AcDbEntity
   8
@@ -6799,7 +6753,7 @@ iso3098
   0
 LINE
   5
-DD
+DC
 100
 AcDbEntity
   8
@@ -6818,6 +6772,30 @@ AcDbLine
 99
  11
 77
+ 21
+109
+  0
+LINE
+  5
+DD
+100
+AcDbEntity
+  8
+RolePreSafetyCheck
+  6
+CONTINUOUS
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+77
+ 20
+109
+ 11
+87
  21
 109
   0
@@ -6837,13 +6815,13 @@ CONTINUOUS
 100
 AcDbLine
  10
-77
+87
  20
 109
  11
 87
  21
-109
+99
   0
 LINE
   5
@@ -6853,19 +6831,19 @@ AcDbEntity
   8
 RolePreSafetyCheck
   6
-CONTINUOUS
+DOTTINY
  62
   256
 370
-   50
+   25
 100
 AcDbLine
  10
 87
  20
-109
+99
  11
-87
+77
  21
 99
   0
@@ -6885,11 +6863,11 @@ DOTTINY
 100
 AcDbLine
  10
-87
- 20
-99
- 11
 77
+ 20
+109
+ 11
+87
  21
 99
   0
@@ -6909,41 +6887,17 @@ DOTTINY
 100
 AcDbLine
  10
-77
+87
  20
-109
+99
  11
 87
  21
-99
+109
   0
 LINE
   5
 E2
-100
-AcDbEntity
-  8
-RolePreSafetyCheck
-  6
-DOTTINY
- 62
-  256
-370
-   25
-100
-AcDbLine
- 10
-87
- 20
-99
- 11
-87
- 21
-109
-  0
-LINE
-  5
-E3
 100
 AcDbEntity
   8
@@ -6967,7 +6921,7 @@ AcDbLine
   0
 INSERT
   5
-E4
+E3
 100
 AcDbEntity
   8
@@ -7009,7 +6963,7 @@ TrafficCone
   0
 INSERT
   5
-E5
+E4
 100
 AcDbEntity
   8
@@ -7051,7 +7005,7 @@ TrafficCone
   0
 INSERT
   5
-E6
+E5
 100
 AcDbEntity
   8
@@ -7093,7 +7047,7 @@ TrafficCone
   0
 INSERT
   5
-E7
+E6
 100
 AcDbEntity
   8
@@ -7135,7 +7089,7 @@ TrafficCone
   0
 INSERT
   5
-E8
+E7
 100
 AcDbEntity
   8
@@ -7177,7 +7131,7 @@ TrafficCone
   0
 INSERT
   5
-E9
+E8
 100
 AcDbEntity
   8
@@ -7219,7 +7173,7 @@ TrafficCone
   0
 INSERT
   5
-EA
+E9
 100
 AcDbEntity
   8
@@ -7261,7 +7215,7 @@ TrafficCone
   0
 INSERT
   5
-EB
+EA
 100
 AcDbEntity
   8
@@ -7303,7 +7257,7 @@ TrafficCone
   0
 INSERT
   5
-EC
+EB
 100
 AcDbEntity
   8
@@ -7345,7 +7299,7 @@ TrafficCone
   0
 INSERT
   5
-ED
+EC
 100
 AcDbEntity
   8
@@ -7387,7 +7341,7 @@ TrafficCone
   0
 MTEXT
   5
-EE
+ED
 100
 AcDbEntity
   8
@@ -7433,7 +7387,7 @@ iso3098
   0
 LINE
   5
-EF
+EE
 100
 AcDbEntity
   8
@@ -7457,7 +7411,7 @@ AcDbLine
   0
 LINE
   5
-F0
+EF
 100
 AcDbEntity
   8
@@ -7481,7 +7435,7 @@ AcDbLine
   0
 LINE
   5
-F1
+F0
 100
 AcDbEntity
   8
@@ -7505,7 +7459,7 @@ AcDbLine
   0
 LINE
   5
-F2
+F1
 100
 AcDbEntity
   8
@@ -7529,7 +7483,7 @@ AcDbLine
   0
 LINE
   5
-F3
+F2
 100
 AcDbEntity
   8
@@ -7550,6 +7504,30 @@ AcDbLine
 168
  21
 297
+  0
+LINE
+  5
+F3
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+168
+ 20
+297
+ 11
+166
+ 21
+295
   0
 LINE
   5
@@ -7567,13 +7545,13 @@ ByLayer
 100
 AcDbLine
  10
-168
+166
  20
-297
+295
  11
 166
  21
-295
+297
   0
 LINE
   5
@@ -7591,13 +7569,13 @@ ByLayer
 100
 AcDbLine
  10
-166
+178
  20
-295
+254
  11
-166
+180
  21
-297
+254
   0
 LINE
   5
@@ -7615,13 +7593,13 @@ ByLayer
 100
 AcDbLine
  10
-178
+180
  20
 254
  11
-180
+178
  21
-254
+252
   0
 LINE
   5
@@ -7639,41 +7617,17 @@ ByLayer
 100
 AcDbLine
  10
-180
+178
  20
-254
+252
  11
 178
  21
-252
+254
   0
 LINE
   5
 F8
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-178
- 20
-252
- 11
-178
- 21
-254
-  0
-LINE
-  5
-F9
 100
 AcDbEntity
   8
@@ -7697,7 +7651,7 @@ AcDbLine
   0
 LINE
   5
-FA
+F9
 100
 AcDbEntity
   8
@@ -7718,6 +7672,30 @@ AcDbLine
 181
  21
 226
+  0
+LINE
+  5
+FA
+100
+AcDbEntity
+  8
+Flow
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbLine
+ 10
+181
+ 20
+226
+ 11
+180
+ 21
+225
   0
 LINE
   5
@@ -7735,41 +7713,17 @@ ByLayer
 100
 AcDbLine
  10
-181
- 20
-226
- 11
 180
+ 20
+225
+ 11
+181
  21
 225
   0
 LINE
   5
 FC
-100
-AcDbEntity
-  8
-Flow
-  6
-ByLayer
- 62
-  256
-370
-   50
-100
-AcDbLine
- 10
-180
- 20
-225
- 11
-181
- 21
-225
-  0
-LINE
-  5
-FD
 100
 AcDbEntity
   8
@@ -7793,7 +7747,7 @@ AcDbLine
   0
 LINE
   5
-FE
+FD
 100
 AcDbEntity
   8
@@ -7817,7 +7771,7 @@ AcDbLine
   0
 LINE
   5
-FF
+FE
 100
 AcDbEntity
   8
@@ -7841,7 +7795,7 @@ AcDbLine
   0
 LINE
   5
-100
+FF
 100
 AcDbEntity
   8
@@ -7865,7 +7819,7 @@ AcDbLine
   0
 MTEXT
   5
-101
+100
 100
 AcDbEntity
   8
@@ -7911,7 +7865,7 @@ iso3098
   0
 MTEXT
   5
-102
+101
 100
 AcDbEntity
   8
@@ -7957,7 +7911,7 @@ iso3098
   0
 TEXT
   5
-103
+102
 100
 AcDbEntity
   8
@@ -8003,7 +7957,7 @@ AcDbText
   0
 TEXT
   5
-104
+103
 100
 AcDbEntity
   8
@@ -8049,7 +8003,7 @@ AcDbText
   0
 LINE
   5
-105
+104
 100
 AcDbEntity
   8
@@ -8073,7 +8027,7 @@ AcDbLine
   0
 LINE
   5
-106
+105
 100
 AcDbEntity
   8
@@ -8097,7 +8051,7 @@ AcDbLine
   0
 LINE
   5
-107
+106
 100
 AcDbEntity
   8
@@ -8121,7 +8075,7 @@ AcDbLine
   0
 LINE
   5
-108
+107
 100
 AcDbEntity
   8
@@ -8145,7 +8099,7 @@ AcDbLine
   0
 MTEXT
   5
-109
+108
 100
 AcDbEntity
   8
@@ -8191,7 +8145,7 @@ iso3098
   0
 MTEXT
   5
-10A
+109
 100
 AcDbEntity
   8
@@ -8220,6 +8174,52 @@ AcDbMText
     1
   1
 INFRA / INFO
+  7
+iso3098
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+10A
+100
+AcDbEntity
+  8
+RoleRadio
+  6
+ByLayer
+ 62
+  256
+370
+   50
+100
+AcDbMText
+ 10
+50
+ 20
+258
+ 30
+0
+ 40
+2
+ 41
+20.84222222222222
+ 71
+    2
+ 72
+    1
+  1
+RADIO / COMMS
   7
 iso3098
 210
@@ -8341,7 +8341,7 @@ AcDbRasterImageDef
  90
     0
   1
-C:/Users/mark/Documents/Hubster/NorthCapitolHillHubLayout/./assets/street_view.jpg
+./assets/street_view.jpg
  10
 2072
  20
@@ -8369,7 +8369,7 @@ AcDbRasterImageDef
  90
     0
   1
-C:/Users/mark/Documents/Hubster/NorthCapitolHillHubLayout/./assets/sat_view.jpg
+./assets/sat_view.jpg
  10
 2072
  20
@@ -8397,7 +8397,7 @@ AcDbRasterImageDef
  90
     0
   1
-C:/Users/mark/Documents/Hubster/NorthCapitolHillHubLayout/./assets/sat_view_light.png
+./assets/sat_view_light.png
  10
 2072
  20
